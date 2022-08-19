@@ -45,6 +45,9 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem "sassc-rails"
 
+# Add dotenv gem
+gem "dotenv-rails", groups: [:development, :test]
+
 # Add 3 gems
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
